@@ -1,0 +1,116 @@
+
+.turkey
+  padding: 100px
+  text-align: center
+
+  background:
+    image: url('https://res.cloudinary.com/dd5e5iszi/image/upload/v1524231680/Turkey/turkey-bg.jpg')
+    position: center
+    size: cover
+    repeat: no-repeat
+  .container
+    .row
+      background-color: #fff
+      .video
+        position: relative
+
+        button
+          display: none
+          // position: absolute
+          // left: 50%
+          // top: 50%
+          // transform: translate(-50%,-50%)
+          // border: none
+          // background: none
+
+          // &::before
+          //   width: 100%
+          //   height: 100%
+          //   font-size: 80px
+
+
+
+
+      .turkey-info
+
+        h1
+          padding: 0
+          margin: 20px 0 8px 0
+          letter-spacing: 0.2em
+          &.titleAr
+            font-family: 'JFRegular', sans-serif
+            letter-spacing: 0em
+        hr
+          width: 15%
+          height: 3px
+          background-color: #CDA036
+          border: none
+          margin: auto
+        p
+          margin: 50px 0
+
+          font-family: 'Montserrat', sans-serif
+          &.titleAr
+            font-family: 'JFLight', sans-serif
+      .turkey-info-icons
+        padding-bottom: 80px
+        margin-top: 40px
+        display: flex
+
+        .turkey-info-icons-each
+          box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2)
+          transition: all .1s linear
+          margin: 12px
+          transform: scale(1)
+          &:hover
+            transform: scale(1.05)
+            cursor: pointer
+
+          .icon
+            margin: auto
+            width: 151px
+            height: 151px
+            background-image: url('https://res.cloudinary.com/dd5e5iszi/image/upload/v1524234759/Turkey/css_sprites.png')
+            &.graph
+
+              background-position:  -10px -10px
+            &.passport
+
+              background-position: -181px -10px
+            &.id
+
+              background-position: -10px -181px
+          .turkey-info-each-text
+            padding-bottom: 30px
+            h6
+              font-weight: 600
+              color: #222222
+              &.titleAr
+                font-family: 'JFRegular', sans-serif
+            hr
+              width: 30%
+            p
+              margin: 13px
+              font-family: 'Montserrat', sans-serif
+              &.titleAr
+                font-family: 'JFLight', sans-serif
+@media (max-width: 992px)
+  .turkey
+    padding: 0px
+    .container
+      width: 100%
+      .video
+
+      .turkey-info
+        padding: 0 30px
+        h1
+          width: 100%
+          letter-spacing: 0 !important
+        p
+          margin: 20px 10px !important
+      .turkey-info-icons
+        flex-direction: column
+@media (min-width: 993px) and (max-width: 1400px)
+  .turkey
+    .container
+      width: 90%

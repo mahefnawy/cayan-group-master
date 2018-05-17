@@ -1,0 +1,338 @@
+@import "~slick-carousel/slick/slick.css"
+@import "~slick-carousel/slick/slick-theme.css"
+
+
+.arabic-description
+  direction: rtl
+  float: right
+  margin-top: 0
+
+.projetcsCarousel
+  height: 700px
+  background-color: #fff
+  h1
+    &.carouselTitleAr
+      letter-spacing: 0
+      text-align: right
+      direction: rtl
+      font-family: 'JFRegular', sans-serif
+      &::after
+        margin-right: 10px
+      &::before
+        display: none
+
+  .arabic
+    text-align: right
+    direction: rtl
+    letter-spacing: 0
+
+    &::before
+      content: "المشاريع"
+      right: 20px
+  .containermy
+    width: 80%
+    margin: 0 !important
+    position: relative
+    left: 50%
+    transform: translateX(-50%)
+    .row
+      width: 100%
+      .carousel
+        height: 520px
+
+        display: flex
+        .right-btn,.left-btn
+          margin: auto
+          width: 100px
+          height: 40px
+          position: relative
+          z-index: 100
+          background: #222222
+          text-align: center
+          display: flex
+          p
+            margin: auto
+            font-weight: 400
+            color: #fff
+
+          &.right-btn
+            right: 10px
+            &::before
+              content: ""
+              color: #222222
+              position: absolute
+              right: -19px
+              bottom: 0
+              width: 0
+              height: 0
+              border-left: 20px solid #222222
+              border-top: 20px solid transparent
+              border-bottom: 20px solid transparent
+          &.left-btn
+            left: 10px
+            &::before
+              content: ""
+              color: #222222
+              position: absolute
+              left: -19.5px
+              bottom: 0
+              width: 0
+              height: 0
+              border-right: 20px solid #222222
+              border-top: 20px solid transparent
+              border-bottom: 20px solid transparent
+
+        .slick-slider
+
+          height: 520px
+          .slick-arrow
+            width: 100px
+
+            position: absolute
+            z-index: 200
+            display: inline
+            height: 40px
+            opacity: 0
+
+            &.slick-prev
+              left: -8%
+            &.slick-next
+              right: -8%
+          .slick-list
+            background-color: #fff
+            height: 520px
+            width: auto
+            padding-bottom: 10px
+            .slick-track
+              height: 520px
+              .slick-slide
+                width: auto
+
+            .wrapper
+              width: 350px
+              height: 500px
+              border: 1px solid rgba(0,0,0,0.2)
+              background-color: #fff
+              margin: 10px
+              padding: 0 !important
+              border-radius: 30px
+              overflow: hidden
+              box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2)
+              position: relative !important
+              left: 50%
+              transform: translateX(-50%)
+              .carouselImages
+                position: relative
+                width: 100%
+                height: 250px
+                overflow: hidden
+                background:
+                  position: center
+                  size: cover
+                h6
+                  background-color: rgba(0,0,0,0.3)
+                  margin: 0
+                  position: absolute
+                  bottom: 7px
+                  left: 7px
+                  color: #fff
+                  font-size: 1.5em
+                  font-family: 'Oswald', sans-serif
+
+                &.cayan-124
+                  background-image: url('https://res.cloudinary.com/dd5e5iszi/image/upload/v1522314639/projects/cayan-124/carousel-cayan-124.jpg')
+                &.cayan-107
+                  background-image: url('https://res.cloudinary.com/dd5e5iszi/image/upload/v1522314821/projects/cayan-107/carousel-cayan-107.jpg')
+                &.cayan-11
+                  background-image: url('https://res.cloudinary.com/dd5e5iszi/image/upload/v1522322995/carousel/cayan-11.jpg')
+                &.cayan-4
+                  background-image: url('https://res.cloudinary.com/dd5e5iszi/image/upload/v1522152634/projects/cayan-4/4.jpg')
+                  // &::after
+                  //   content: "Ready"
+                  //   position: absolute
+                  //   top: 20px
+                  //   left: -30px
+                  //   font-weight: 400
+                  //   padding-left: 40px
+                  //   width: 150px
+                  //   height: 20px
+                  //   color: #fff
+                  //   background-color: green
+                  //   z-index: 200
+                  //   transform: rotateZ(-45deg)
+                &.cayan-128
+                  background-image: url('https://res.cloudinary.com/dd5e5iszi/image/upload/v1522153916/projects/cayan-128/10.jpg')
+                  // &::after
+                  //   content: "Top Rated"
+                  //   position: absolute
+                  //   top: 20px
+                  //   left: -30px
+                  //   font-weight: 400
+                  //   padding-left: 30px
+                  //   width: 150px
+                  //   height: 20px
+                  //   color: #fff
+                  //   background-color: #CDA036
+                  //   z-index: 200
+                  //   transform: rotateZ(-45deg)
+                &.cayan-101
+
+                  background-image: url('http://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_831/v1522411230/projects/cayan-101/header.jpg')
+                  // &::after
+                  //   content: "Top Rated"
+                  //   position: absolute
+                  //   bottom: -60px
+                  //   right: -60px
+                  //   text-align: center
+                  //   font-weight: 400
+                  //   padding: 15px 60px 0 10px
+                  //   border: 2px solid #CDA036
+                  //   width: 120px
+                  //   height: 120px
+                  //   color: #fff
+                  //   background-color: #222222
+                  //   z-index: 200
+                  //   border-radius: 60px
+
+                &.cayan-100
+                  background-image: url('https://res.cloudinary.com/dd5e5iszi/image/upload/v1522323968/carousel/cayan-100.jpg')
+
+              .descriptionCarousel
+                position: relative
+                padding: 10px
+                border-bottom: 1px solid rgba(0,0,0,0.2)
+                box-shadow: 0px #fff
+                height: 110px
+
+                h6
+                  font-size: 1em
+                  color: #222222
+                  display: inline
+                  &.arabicTitle
+                    text-align: right
+                    direction: rtl
+                    margin: 0
+                    font-family: 'JFRegular', sans-serif
+                h5
+                  font-size: 1.3em
+                  color: #CDA036
+                  font-family: 'Oswald', sans-serif
+                  display: inline
+                  position: absolute
+                  margin: 0
+                  right: 10px
+                  &.priceClass
+                    left: 10px
+                p
+                  font-size: 0.8em
+                  line-height: 1.2em
+                  margin-top: 10px
+                  display: none
+                  &.descriptionEn
+                    display: block
+                  &.descriptionAr
+                    margin-top: 30px
+                    display: block
+                    text-align: right
+                    direction: rtl
+                    line-height: 1.4em
+                    font-family: 'JFLight', sans-serif
+              .project-info
+                width: 100%
+                border-bottom: 1px solid rgba(0,0,0,0.2)
+                height: 80px
+                .project-info-icons
+                  width: 50%
+                  height: 100%
+                  padding-left: 5px
+                  border-right: 1px solid rgba(0,0,0,0.2)
+                  &.iconsAr
+                    text-align: right
+
+                  &.right-icons
+                    border-right: none
+                    padding-left: 5px
+                  i
+                    display: inline
+                    color: #222222
+
+                  p
+                    display: inline
+                    font-size: 0.7em
+                    margin-left: 5px
+                    font-weight: 500
+                    display: none
+                    &.nutural
+                      display: inline
+                    &.classEn
+                      display: inline
+                    &.classAr
+                      display: inline
+                      font-family: 'JFRegular', sans-serif
+              .more-details
+                position: relative
+                left: 50%
+                transform: translateX(-50%)
+                bottom: 0
+                background-color: #222222
+                color: #fff
+                font-size: 0.8em
+                font-weight: 300
+                font-family: 'Oswald', sans-serif
+                padding: 10px
+                border: none
+                width: 120px
+                border-radius: 30px
+                margin-top: 10px
+                &.carouselTitleAr
+                  font-family: 'JFRegular', sans-serif
+@media (max-width: 992px)
+  .projetcsCarousel
+    width: 100%
+    height: 550px
+    .containermy
+      width: 100%
+      .carousel
+        width: 100%
+        box-shadow: 0px #fff
+        .right-btn,.left-btn
+          display: none !important
+        .slick-slider
+          width: 100%
+          margin-top: 20px
+          .slick-slide
+            box-shadow: 0px #fff
+
+            .wrapper
+              width: 100% !important
+              margin: 0px !important
+              box-shadow: none !important
+@media (min-width: 993px) and (max-width: 1500px)
+  .projetcsCarousel
+    height: 600px !important
+    .containermy
+      width: 100% !important
+      .right-btn,.left-btn
+        width: 0px !important
+        opacity: 0.2
+        background-color: rgba(0,0,0,0) !important
+
+        p
+          display: none
+      .slick-slider
+        width: 90%
+        margin: 0 !important
+        .slick-arrow
+          width: 30px !important
+          &.slick-prev
+            left: -3.5% !important
+          &.slick-next
+            right: -3.5% !important
+        .slick-list
+          .wrapper
+            width: 330px !important
+            .descriptionCarousel
+              h5
+                font-size: 1em !important
+              h6
+                font-size: 0.8em !important

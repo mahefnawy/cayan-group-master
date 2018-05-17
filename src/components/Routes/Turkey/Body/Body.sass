@@ -1,0 +1,82 @@
+.turkey-outter
+  padding-top: 40px
+  // display: flex
+  // height: 800px
+  background:
+    image: url('https://res.cloudinary.com/dd5e5iszi/image/upload/v1524485362/Turkey/background2.jpg')
+    position: center
+    size: cover
+    attachment: fixed
+
+  .sections
+    margin: 70px auto
+    background-color: #fff
+    padding-bottom: 40px
+    .sections-text
+
+      color: #222222
+      margin: auto
+      // width: 70%
+      padding: 20px 100px 50px 100px
+      // position: relative
+      // z-index: 2
+      h5
+        text-align: center
+        font-weight: 800
+        letter-spacing: 0.2em
+        font-size: 2em
+        &.titleAr
+          letter-spacing: 0
+          font-family: 'JFRegular', sans-serif
+
+      hr
+        height: 3px
+        background-color: #CDA036
+        border: none
+        width: 10%
+        margin: auto auto 50px auto
+      h6
+        &.textAr
+          direction: rtl
+          font-family: 'JFRegular', sans-serif
+      p
+        margin-top: 20px
+        color: #222222
+        line-height: 2.2em
+        // width: 50%
+        // float: left
+        &.textAr
+          direction: rtl
+          font-size: 1em
+          font-family: 'JFLight', sans-serif
+      .float-image
+        float: right
+        width: 50%
+        height: auto
+        margin: 5px
+        &.imageAr
+          float: left
+
+
+@media (max-width: 992px)
+  .turkey-outter
+
+    .container
+      width: 100%
+      .sections
+        margin: 0
+        width: 100%
+        .sections-text
+          height: 100% !important
+          padding: 20px 0 0 0 !important
+          h6
+            text-align: center
+
+          p
+            padding: 0 10px
+            text-align: center
+          hr
+            width: 30%
+        .float-image
+          width: 100% !important
+          margin: 0 0 20px 0 !important

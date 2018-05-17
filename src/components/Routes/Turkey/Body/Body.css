@@ -1,0 +1,68 @@
+.turkey-outter {
+  padding-top: 40px;
+  background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1524485362/Turkey/background2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  .turkey-outter .sections {
+    margin: 70px auto;
+    background-color: #fff;
+    padding-bottom: 40px; }
+    .turkey-outter .sections .sections-text {
+      color: #222222;
+      margin: auto;
+      padding: 20px 100px 50px 100px; }
+      .turkey-outter .sections .sections-text h5 {
+        text-align: center;
+        font-weight: 800;
+        letter-spacing: 0.2em;
+        font-size: 2em; }
+        .turkey-outter .sections .sections-text h5.titleAr {
+          letter-spacing: 0;
+          font-family: "JFRegular", sans-serif; }
+      .turkey-outter .sections .sections-text hr {
+        height: 3px;
+        background-color: #CDA036;
+        border: none;
+        width: 10%;
+        margin: auto auto 50px auto; }
+      .turkey-outter .sections .sections-text h6.textAr {
+        direction: rtl;
+        font-family: "JFRegular", sans-serif; }
+      .turkey-outter .sections .sections-text p {
+        margin-top: 20px;
+        color: #222222;
+        line-height: 2.2em; }
+        .turkey-outter .sections .sections-text p.textAr {
+          direction: rtl;
+          font-size: 1em;
+          font-family: "JFLight", sans-serif; }
+      .turkey-outter .sections .sections-text .float-image {
+        float: right;
+        width: 50%;
+        height: auto;
+        margin: 5px; }
+        .turkey-outter .sections .sections-text .float-image.imageAr {
+          float: left; }
+
+@media (max-width: 992px) {
+  .turkey-outter .container {
+    width: 100%; }
+    .turkey-outter .container .sections {
+      margin: 0;
+      width: 100%; }
+      .turkey-outter .container .sections .sections-text {
+        height: 100% !important;
+        padding: 20px 0 0 0 !important; }
+        .turkey-outter .container .sections .sections-text h6 {
+          text-align: center; }
+        .turkey-outter .container .sections .sections-text p {
+          padding: 0 10px;
+          text-align: center; }
+        .turkey-outter .container .sections .sections-text hr {
+          width: 30%; }
+      .turkey-outter .container .sections .float-image {
+        width: 100% !important;
+        margin: 0 0 20px 0 !important; } }
+
+/*# sourceMappingURL=Body.css.map */

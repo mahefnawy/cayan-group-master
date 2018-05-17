@@ -1,0 +1,75 @@
+.overview {
+  background-color: #222222;
+  text-align: center;
+  border-top: 10px solid #222222;
+  border-bottom: 10px solid #222222;
+  box-sizing: content-box;
+  margin: 0; }
+  .overview .description {
+    margin-top: 30px;
+    padding-bottom: 50px;
+    text-align: left; }
+    .overview .description .description-text {
+      position: relative;
+      top: 10%;
+      transform: translateY(-10%);
+      color: #fff; }
+      .overview .description .description-text.description-text-p {
+        color: #fff;
+        margin: 0;
+        font-size: 1em;
+        padding: 0;
+        font-weight: 300; }
+        .overview .description .description-text.description-text-p p {
+          color: #fff;
+          display: none; }
+          .overview .description .description-text.description-text-p p.infoTextEn {
+            display: block; }
+          .overview .description .description-text.description-text-p p.infoTextAr {
+            display: block;
+            font-family: "JFLight", sans-serif;
+            text-align: right;
+            margin-right: 20px; }
+      .overview .description .description-text.description-text-price {
+        border-left: 2px solid #CDA036;
+        transform: translateY(-30%);
+        text-align: right;
+        letter-spacing: 0.2em;
+        color: #CDA036; }
+        .overview .description .description-text.description-text-price h1 {
+          margin: 0;
+          padding: 0; }
+          .overview .description .description-text.description-text-price h1.starting {
+            font-weight: 300;
+            font-size: 0.8em;
+            color: #fff; }
+            .overview .description .description-text.description-text-price h1.starting.titleAr {
+              font-family: "JFLight", sans-serif;
+              letter-spacing: 0; }
+          .overview .description .description-text.description-text-price h1.price {
+            font-family: "oswald", sans-serif;
+            font-size: 5em; }
+
+@media (max-width: 992px) {
+  .description {
+    text-align: center;
+    height: 320px !important;
+    padding: 0 !important;
+    margin-top: 0px !important; }
+    .description .description-text {
+      top: 0;
+      transform: none; }
+      .description .description-text.description-text-p {
+        text-align: center;
+        margin-top: 30px !important;
+        padding: 10px 0; }
+      .description .description-text.description-text-price {
+        transform: translateY(0%) !important;
+        text-align: center !important;
+        border: none !important; }
+        .description .description-text.description-text-price h1.starting {
+          font-size: 0.8em !important; }
+        .description .description-text.description-text-price h1.price {
+          font-size: 5em !important; } }
+
+/*# sourceMappingURL=overview.css.map */

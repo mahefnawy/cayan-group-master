@@ -1,0 +1,88 @@
+.turkey {
+  padding: 100px;
+  text-align: center;
+  background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1524231680/Turkey/turkey-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .turkey .container .row {
+    background-color: #fff; }
+    .turkey .container .row .video {
+      position: relative; }
+      .turkey .container .row .video button {
+        display: none; }
+    .turkey .container .row .turkey-info h1 {
+      padding: 0;
+      margin: 20px 0 8px 0;
+      letter-spacing: 0.2em; }
+      .turkey .container .row .turkey-info h1.titleAr {
+        font-family: "JFRegular", sans-serif;
+        letter-spacing: 0em; }
+    .turkey .container .row .turkey-info hr {
+      width: 15%;
+      height: 3px;
+      background-color: #CDA036;
+      border: none;
+      margin: auto; }
+    .turkey .container .row .turkey-info p {
+      margin: 50px 0;
+      font-family: "Montserrat", sans-serif; }
+      .turkey .container .row .turkey-info p.titleAr {
+        font-family: "JFLight", sans-serif; }
+    .turkey .container .row .turkey-info-icons {
+      padding-bottom: 80px;
+      margin-top: 40px;
+      display: flex; }
+      .turkey .container .row .turkey-info-icons .turkey-info-icons-each {
+        box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+        transition: all 0.1s linear;
+        margin: 12px;
+        transform: scale(1); }
+        .turkey .container .row .turkey-info-icons .turkey-info-icons-each:hover {
+          transform: scale(1.05);
+          cursor: pointer; }
+        .turkey .container .row .turkey-info-icons .turkey-info-icons-each .icon {
+          margin: auto;
+          width: 151px;
+          height: 151px;
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1524234759/Turkey/css_sprites.png"); }
+          .turkey .container .row .turkey-info-icons .turkey-info-icons-each .icon.graph {
+            background-position: -10px -10px; }
+          .turkey .container .row .turkey-info-icons .turkey-info-icons-each .icon.passport {
+            background-position: -181px -10px; }
+          .turkey .container .row .turkey-info-icons .turkey-info-icons-each .icon.id {
+            background-position: -10px -181px; }
+        .turkey .container .row .turkey-info-icons .turkey-info-icons-each .turkey-info-each-text {
+          padding-bottom: 30px; }
+          .turkey .container .row .turkey-info-icons .turkey-info-icons-each .turkey-info-each-text h6 {
+            font-weight: 600;
+            color: #222222; }
+            .turkey .container .row .turkey-info-icons .turkey-info-icons-each .turkey-info-each-text h6.titleAr {
+              font-family: "JFRegular", sans-serif; }
+          .turkey .container .row .turkey-info-icons .turkey-info-icons-each .turkey-info-each-text hr {
+            width: 30%; }
+          .turkey .container .row .turkey-info-icons .turkey-info-icons-each .turkey-info-each-text p {
+            margin: 13px;
+            font-family: "Montserrat", sans-serif; }
+            .turkey .container .row .turkey-info-icons .turkey-info-icons-each .turkey-info-each-text p.titleAr {
+              font-family: "JFLight", sans-serif; }
+
+@media (max-width: 992px) {
+  .turkey {
+    padding: 0px; }
+    .turkey .container {
+      width: 100%; }
+      .turkey .container .turkey-info {
+        padding: 0 30px; }
+        .turkey .container .turkey-info h1 {
+          width: 100%;
+          letter-spacing: 0 !important; }
+        .turkey .container .turkey-info p {
+          margin: 20px 10px !important; }
+      .turkey .container .turkey-info-icons {
+        flex-direction: column; } }
+@media (min-width: 993px) and (max-width: 1400px) {
+  .turkey .container {
+    width: 90%; } }
+
+/*# sourceMappingURL=turkey.css.map */

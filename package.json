@@ -1,0 +1,38 @@
+{
+  "name": "cayan-group",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "google-map-react": "^0.34.0",
+    "lodash": "^4.17.5",
+    "money": "^0.2.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.0.0-alpha.12",
+    "react-burger-menu": "^2.4.0",
+    "react-dom": "^16.3.0",
+    "react-facebook-pixel": "^0.1.1",
+    "react-floating-button-menu": "^1.0.8",
+    "react-icons": "^2.2.7",
+    "react-images": "^0.5.17",
+    "react-materialize": "^2.1.2",
+    "react-redux": "^4.4.9",
+    "react-router-dom": "^4.2.2",
+    "react-router-transition": "^1.2.1",
+    "react-scripts": "1.1.1",
+    "react-select": "^1.2.1",
+    "react-slick": "^0.22.3",
+    "react-tabs": "^2.2.1",
+    "react-telephone-input": "^4.3.4",
+    "redux": "^3.7.2",
+    "slick-carousel": "^1.8.1",
+    "video-react": "^0.10.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && mv build/index.html build/200.html && surge build cayan-group.com",
+    "dev": "npm run build && mv build/index.html build/200.html && surge build"
+  }
+}

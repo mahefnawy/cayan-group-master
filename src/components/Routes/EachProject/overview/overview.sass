@@ -1,0 +1,83 @@
+.overview
+  background-color: #222222
+  text-align: center
+  border-top: 10px solid #222222
+  border-bottom: 10px solid #222222
+  box-sizing: content-box
+  margin: 0
+  // height: 400px
+
+  .description
+    margin-top: 30px
+    // padding: 50px 0
+    // height: 200px
+    padding-bottom: 50px
+    text-align: left
+    // background-color: red
+    .description-text
+      position: relative
+      top: 10%
+      transform: translateY(-10%)
+      color: #fff
+      &.description-text-p
+        color: #fff
+        margin: 0
+        font-size: 1em
+        padding: 0
+        font-weight: 300
+        p
+          color: #fff
+          display: none
+          &.infoTextEn
+            display: block
+          &.infoTextAr
+            display: block
+            font-family: 'JFLight', sans-serif
+            text-align: right
+            margin-right: 20px
+      &.description-text-price
+        // font-size: 5.2em
+        border-left: 2px solid #CDA036
+        // height: 100%
+        transform: translateY(-30%)
+        text-align: right
+        letter-spacing: 0.2em
+        color: #CDA036
+
+        h1
+          margin: 0
+          padding: 0
+          &.starting
+            font-weight: 300
+            font-size: 0.8em
+            color: #fff
+            &.titleAr
+              font-family: 'JFLight', sans-serif
+              letter-spacing: 0
+          &.price
+            font-family: "oswald", sans-serif
+            font-size: 5em
+@media (max-width: 992px)
+  .description
+    text-align: center
+    height: 320px !important
+    padding: 0 !important
+    margin-top: 0px !important
+    .description-text
+      top: 0
+      transform: none
+
+      &.description-text-p
+        text-align: center
+        margin-top: 30px !important
+        padding: 10px 0
+      &.description-text-price
+        transform: translateY(0%) !important
+        text-align: center !important
+        border: none !important
+        h1
+          &.starting
+            font-size: 0.8em !important
+          &.price
+            font-size: 5em !important
+            // height: 50% !important

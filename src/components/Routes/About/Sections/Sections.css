@@ -1,0 +1,143 @@
+.about-outter {
+  position: relative;
+  z-index: 30 !important; }
+  .about-outter .about {
+    text-align: center;
+    position: relative;
+    z-index: 30 !important;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 100px; }
+    @media (max-width: 600px) {
+      .about-outter .about {
+        margin-top: -145% !important; } }
+    @media (min-width: 601px) and (max-width: 992px) {
+      .about-outter .about {
+        margin-top: -20%; } }
+    .about-outter .about h1 {
+      font-family: "Oswald", sans-serif;
+      font-size: 4em;
+      padding-bottom: 10px;
+      margin: auto; }
+      .about-outter .about h1.titleAr {
+        font-family: "JFRegular", sans-serif;
+        letter-spacing: 0; }
+        .about-outter .about h1.titleAr::before {
+          display: none; }
+      .about-outter .about h1::before {
+        content: "ABOUTUS";
+        left: 40%; }
+      .about-outter .about h1::after {
+        display: none; }
+    .about-outter .about hr {
+      width: 250px;
+      background-color: #CDA036;
+      margin: auto;
+      height: 4px;
+      border: none; }
+    .about-outter .about p {
+      margin-top: 40px; }
+      .about-outter .about p.titleAr {
+        font-family: "JFLight", sans-serif; }
+  .about-outter .our-team {
+    text-align: center;
+    margin-top: 30px; }
+    .about-outter .our-team .our-team-div h1 {
+      font-family: "Oswald", sans-serif;
+      font-size: 4em;
+      padding-bottom: 10px;
+      margin: auto; }
+      .about-outter .our-team .our-team-div h1.titleAr {
+        font-family: "JFRegular", sans-serif;
+        letter-spacing: 0 !important; }
+        .about-outter .our-team .our-team-div h1.titleAr::before {
+          display: none; }
+      .about-outter .our-team .our-team-div h1::before {
+        content: "OUR TEAM";
+        left: 40%; }
+      .about-outter .our-team .our-team-div h1::after {
+        display: none; }
+    .about-outter .our-team .our-team-div hr {
+      width: 250px;
+      background-color: #CDA036;
+      margin: auto;
+      height: 4px;
+      border: none; }
+    .about-outter .our-team .our-team-div .our-team-each {
+      text-align: center;
+      margin-top: 20px; }
+      .about-outter .our-team .our-team-div .our-team-each img {
+        height: 270px;
+        width: auto;
+        transform: translateY(6px); }
+      .about-outter .our-team .our-team-div .our-team-each .name {
+        background-color: #222222;
+        padding: 10px 0;
+        color: #fff;
+        text-align: center; }
+        .about-outter .our-team .our-team-div .our-team-each .name h5 {
+          font-family: "Oswald", sans-serif;
+          color: #fff;
+          font-size: 1.5em;
+          display: table;
+          margin: auto; }
+          .about-outter .our-team .our-team-div .our-team-each .name h5.titleAr {
+            font-family: "JFRegular", sans-serif;
+            letter-spacing: 0; }
+      .about-outter .our-team .our-team-div .our-team-each h6 {
+        color: #222222;
+        font-family: "Oswald", sans-serif;
+        position: relative;
+        font-weight: 400;
+        font-size: 1.4em; }
+        .about-outter .our-team .our-team-div .our-team-each h6.titleAr {
+          font-family: "JFRegular", sans-serif;
+          letter-spacing: 0; }
+      .about-outter .our-team .our-team-div .our-team-each hr {
+        text-align: center;
+        margin: auto;
+        width: 30%;
+        height: 2px;
+        background-color: #CDA036;
+        border: none; }
+      .about-outter .our-team .our-team-div .our-team-each .position {
+        display: table;
+        text-align: left;
+        margin: 10px auto; }
+        .about-outter .our-team .our-team-div .our-team-each .position p i {
+          margin-right: 5px;
+          font-size: 20px;
+          transform: translateY(5px);
+          color: #CDA036; }
+
+@media (max-width: 992px) {
+  .about-outter {
+    margin-top: 0px !important; }
+    .about-outter .about h1 {
+      font-size: 3em; }
+      .about-outter .about h1::after {
+        display: none !important; }
+      .about-outter .about h1::before {
+        font-size: 1em !important; }
+    .about-outter .about hr {
+      width: 30%; }
+    .about-outter .about p {
+      text-align: left; }
+
+  .our-team .our-team-div h1::after {
+    display: none !important; }
+  .our-team .our-team-div hr {
+    width: 30% !important; } }
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .about-outter {
+    margin-top: 70px !important; }
+    .about-outter .about h1 {
+      font-size: 3em; }
+    .about-outter .about hr {
+      width: 20%; }
+    .about-outter .our-team .our-team-div h1 {
+      font-size: 3em; }
+    .about-outter .our-team .our-team-div hr {
+      width: 20%; } }
+
+/*# sourceMappingURL=Sections.css.map */

@@ -1,0 +1,203 @@
+.projects-page {
+  background-color: #fff; }
+  .projects-page .container .row .projectsPage-wrapper {
+    position: relative;
+    height: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .projects-page .container .row .projectsPage-wrapper .wrapper {
+      float: left !important;
+      background-color: blue;
+      width: 350px;
+      height: 520px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+      margin: 20px auto;
+      padding: 0 !important;
+      border-radius: 30px;
+      overflow: hidden;
+      box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+      position: relative !important; }
+      .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        background-size: cover; }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages h6 {
+          background-color: rgba(0, 0, 0, 0.3);
+          margin: 0;
+          position: absolute;
+          bottom: 7px;
+          left: 7px;
+          color: #fff;
+          font-size: 1.5em;
+          font-family: "Oswald", sans-serif; }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-124 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522314639/projects/cayan-124/carousel-cayan-124.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-107 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522314821/projects/cayan-107/carousel-cayan-107.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-11 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522322995/carousel/cayan-11.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-15 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522323549/carousel/caya-15.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-101 {
+          background-image: url("http://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_831/v1522411230/projects/cayan-101/header.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-100 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522323968/carousel/cayan-100.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-128 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_500/v1522153915/projects/cayan-128/9.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-139 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_500/v1522154035/projects/cayan-139/3.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-106 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_500/v1522153767/projects/cayan-106/cayan-106.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-115 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_500/v1522248171/projects/cayan-115/2.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-112 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_500/v1522153819/projects/cayan-112/8.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-138 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_500/v1522154000/projects/cayan-138/4.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-127 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_500/v1522153891/projects/cayan-127/6.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-132 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_500/v1522153942/projects/cayan-132/5.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-103 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_500/v1522152825/projects/cayan-103/4.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-97 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_500/v1522152765/projects/cayan-97/cayan-97.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-41 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_500/v1522152716/projects/cayan-41/11.jpg"); }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-4 {
+          background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/c_scale,w_500/v1522152634/projects/cayan-4/2.jpg"); }
+      .projects-page .container .row .projectsPage-wrapper .wrapper .descriptionProjectsPage {
+        position: relative;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0px #fff;
+        height: 110px; }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .descriptionProjectsPage h6 {
+          font-size: 1em;
+          color: #222222;
+          display: inline; }
+          .projects-page .container .row .projectsPage-wrapper .wrapper .descriptionProjectsPage h6.arabicTitle {
+            text-align: right;
+            direction: rtl;
+            margin: 0;
+            font-family: "JFRegular", sans-serif; }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .descriptionProjectsPage h5 {
+          font-size: 1.3em;
+          color: #CDA036;
+          font-family: "Oswald", sans-serif;
+          display: inline;
+          position: absolute;
+          right: 10px;
+          margin: 0; }
+          .projects-page .container .row .projectsPage-wrapper .wrapper .descriptionProjectsPage h5.priceClass {
+            left: 10px; }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .descriptionProjectsPage p {
+          font-size: 0.8em;
+          line-height: 1.2em;
+          margin-top: 10px;
+          display: none; }
+          .projects-page .container .row .projectsPage-wrapper .wrapper .descriptionProjectsPage p.descriptionEn {
+            display: block; }
+          .projects-page .container .row .projectsPage-wrapper .wrapper .descriptionProjectsPage p.descriptionAr {
+            margin-top: 30px;
+            display: block;
+            text-align: right;
+            direction: rtl;
+            line-height: 1.4em;
+            font-family: "JFRegular", sans-serif; }
+      .projects-page .container .row .projectsPage-wrapper .wrapper .project-info {
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        height: 90px; }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .project-info .project-info-icons {
+          width: 50%;
+          height: 100%;
+          padding-left: 5px;
+          border-right: 1px solid rgba(0, 0, 0, 0.2); }
+          .projects-page .container .row .projectsPage-wrapper .wrapper .project-info .project-info-icons:nth-child(2) {
+            border-right: none; }
+          .projects-page .container .row .projectsPage-wrapper .wrapper .project-info .project-info-icons.iconsAr {
+            text-align: right;
+            border-left: 1px solid rgba(0, 0, 0, 0.2); }
+            .projects-page .container .row .projectsPage-wrapper .wrapper .project-info .project-info-icons.iconsAr:nth-child(2) {
+              border-left: none; }
+          .projects-page .container .row .projectsPage-wrapper .wrapper .project-info .project-info-icons.right {
+            border-right: none;
+            padding-left: 5px; }
+          .projects-page .container .row .projectsPage-wrapper .wrapper .project-info .project-info-icons i {
+            display: inline;
+            color: #222222; }
+          .projects-page .container .row .projectsPage-wrapper .wrapper .project-info .project-info-icons p {
+            display: inline;
+            font-size: 0.7em;
+            margin-left: 5px;
+            font-weight: 500;
+            display: none; }
+            .projects-page .container .row .projectsPage-wrapper .wrapper .project-info .project-info-icons p.nutural {
+              display: inline; }
+            .projects-page .container .row .projectsPage-wrapper .wrapper .project-info .project-info-icons p.classEn {
+              display: inline; }
+            .projects-page .container .row .projectsPage-wrapper .wrapper .project-info .project-info-icons p.classAr {
+              display: inline;
+              font-family: "JFRegular", sans-serif; }
+      .projects-page .container .row .projectsPage-wrapper .wrapper .more-details {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        background-color: #222222;
+        color: #fff;
+        font-size: 0.8em;
+        font-weight: 300;
+        font-family: "Oswald", sans-serif;
+        padding: 10px;
+        border: none;
+        width: 120px;
+        border-radius: 30px;
+        margin-top: 10px; }
+        .projects-page .container .row .projectsPage-wrapper .wrapper .more-details.carouselTitleAr {
+          font-family: "JFRegular", sans-serif; }
+
+@media (max-width: 799px) {
+  .projects-page {
+    margin-top: 70px; }
+    .projects-page .container {
+      width: 80%; }
+      .projects-page .container .row .projectsPage-wrapper {
+        display: block !important; }
+        .projects-page .container .row .projectsPage-wrapper .wrapper {
+          left: 50%;
+          transform: translateX(-50%);
+          width: 320px !important; } }
+@media (min-width: 800px) and (max-width: 992px) {
+  .wrapper {
+    margin: 10px !important;
+    width: 320px !important; } }
+@media (min-width: 993px) and (max-width: 1200px) {
+  .projects-page {
+    margin-top: 70px; }
+    .projects-page .container {
+      width: 80%; }
+      .projects-page .container .row .projectsPage-wrapper {
+        display: block !important; }
+        .projects-page .container .row .projectsPage-wrapper .wrapper {
+          left: 20%;
+          transform: translateX(-25%);
+          margin: 10px !important;
+          width: 320px !important; } }
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .projects-page {
+    margin-top: 70px; }
+    .projects-page .container {
+      width: 85%; }
+      .projects-page .container .wrapper {
+        width: 320px !important;
+        margin: 10px !important; }
+        .projects-page .container .wrapper .description h5 {
+          font-size: 1.1em; } }
+
+/*# sourceMappingURL=ProjectsPage.css.map */
